@@ -1,4 +1,4 @@
-def using_push = (array, string)
+def using_push = ()
     array = []
     array.push("string")
 end
