@@ -7,7 +7,8 @@ end
 def using_unshift (array, string)
     bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
     @new_neighborhood = "Staten Island"
-    updated_bouroughs_in_nyc = bouroughs_in_nyc.unshift(@newneighborhood)
+    bouroughs_in_nyc.unshift(@newneighborhood)
+    p bouroughs_in_nyc
   end
   
 def 
