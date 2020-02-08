@@ -5,6 +5,8 @@ def using_push (array, string)
 end
 
 def using_unshift (array, string)
-    
+    bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+    @new_neighborhood = "Staten Island"
+    bouroughs_in_nyc.unshift(@newneighborhood)
   
 end
