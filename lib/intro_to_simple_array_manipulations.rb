@@ -8,5 +8,6 @@ def using_unshift (array, string)
     bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
     @new_neighborhood = "Staten Island"
     updated_array = bouroughs_in_nyc.unshift(@newneighborhood)
+    p updated_array
 end
   
